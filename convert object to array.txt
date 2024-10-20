@@ -1,0 +1,16 @@
+const j = {
+  0: {"a": "a"},
+  1: {"b": "b"}
+}
+
+
+
+
+const result = Object.entries(j).map( ([name, value]) => {
+    value.id = name;
+    return value;
+});
+
+console.log("=======================")
+console.log(result)
+console.log("=======================")
